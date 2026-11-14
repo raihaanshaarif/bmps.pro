@@ -110,7 +110,7 @@ export function Contact() {
             <div className="relative h-10 w-[140px]">
               <Image src="/logo-light.png" alt="BMPS" fill sizes="140px" className="object-contain object-left" />
             </div>
-            <p className="max-w-xs text-sm text-mist">A Performance Royalty Organization under BLCPS.</p>
+            <p className="max-w-xs text-sm text-mist">Bangladesh Music Performers Society</p>
           </div>
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-mist" aria-label="Footer">
             {nav.map((n) => (

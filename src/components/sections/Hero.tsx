@@ -27,7 +27,7 @@ export function Hero() {
             className="glass mb-7 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium text-gold-soft sm:text-sm"
           >
             <Mic2 size={16} className="text-gold" />
-            A Performance Royalty Organization under BLCPS
+            Bangladesh Music Performers Society
           </motion.p>
 
           <h1 className="font-display text-[2.6rem] font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
@@ -48,7 +48,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, delay: 0.75, ease: [0.22, 1, 0.36, 1] }}
             >
-              its creators get paid.
+              its performers get paid.
             </motion.span>
           </h1>
 
@@ -58,8 +58,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 1 }}
             className="mt-7 max-w-xl text-base leading-relaxed text-mist sm:text-lg"
           >
-            BMPS licenses the public performance of music and pays royalties to the songwriters, composers,
-            performers and publishers behind every song.
+            BMPS licenses the public use of music and pays royalties to the singers, musicians and DJs who
+            perform it.
           </motion.p>
 
           <motion.div

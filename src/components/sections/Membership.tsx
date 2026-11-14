@@ -18,10 +18,10 @@ export function Membership() {
                 eyebrow="Membership"
                 title={
                   <>
-                    Your songs are working. <span className="text-gradient">Make sure you are paid.</span>
+                    You perform. <span className="text-gradient">You should be paid.</span>
                   </>
                 }
-                intro="Join BMPS and we will license, track and collect for every public performance of your registered works."
+                intro="Join BMPS and we will collect royalties for you whenever your performances are used in public."
               />
 
               <Reveal delay={0.1} className="mt-8">

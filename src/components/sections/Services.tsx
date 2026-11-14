@@ -45,14 +45,14 @@ export function Services() {
             eyebrow="Our services"
             title={
               <>
-                Everything performance rights, <span className="text-gradient">under one roof.</span>
+                What we <span className="text-gradient">offer.</span>
               </>
             }
           />
           <Reveal delay={0.1} className="max-w-sm">
             <p className="text-mist">
-              From the café down the road to national broadcasters, we make licensing music simple and make sure
-              creators are paid.
+              From the café down the road to national broadcasters, we make licensing simple and make sure
+              performers are paid.
             </p>
           </Reveal>
         </div>

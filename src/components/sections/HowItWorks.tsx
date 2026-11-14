@@ -8,7 +8,7 @@ import { SectionHeading } from "@/components/Reveal";
 
 const tabs = [
   { key: "users", label: "For music users", icon: Building },
-  { key: "creators", label: "For creators", icon: Music2 },
+  { key: "performers", label: "For performers", icon: Music2 },
 ] as const;
 
 export function HowItWorks() {
@@ -21,7 +21,7 @@ export function HowItWorks() {
           eyebrow="How it works"
           title={
             <>
-              Four steps, <span className="text-gradient">either side of the song.</span>
+              Simple, <span className="text-gradient">in four steps.</span>
             </>
           }
         />

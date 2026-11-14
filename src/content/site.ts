@@ -17,17 +17,17 @@ export const pillars = [
   {
     key: "license",
     title: "We license",
-    body: "Businesses and broadcasters get one legal permission to play our whole repertoire, instead of chasing every songwriter and performer one by one.",
+    body: "Shops, venues, broadcasters and event organisers get one licence to use music in public.",
   },
   {
     key: "collect",
     title: "We collect",
-    body: "Licence fees are invoiced fairly and matched against what is actually played, using usage reports, playlists and cue sheets.",
+    body: "We collect the licence fees and keep track of which music is played.",
   },
   {
     key: "distribute",
-    title: "We distribute",
-    body: "Royalties reach the right rights-holders on a regular schedule, with clear statements showing where every taka came from.",
+    title: "We pay performers",
+    body: "We pay the money to the singers, musicians and DJs whose performances were used.",
   },
 ] as const;
 
@@ -35,42 +35,42 @@ export const services = [
   {
     icon: "speaker",
     title: "Public performance licensing",
-    body: "Blanket and per-event licences for restaurants, shops, hotels, gyms, offices and live events that play music in public.",
+    body: "Licences for shops, restaurants, hotels, gyms and other places that play music in public.",
+  },
+  {
+    icon: "dj",
+    title: "DJ performance licensing",
+    body: "Licences for DJ sets at clubs, parties, weddings, concerts and events.",
   },
   {
     icon: "radio",
     title: "Broadcast licensing",
-    body: "Licences for TV, radio and cable channels, covering every song that goes out on air.",
+    body: "Licences for TV, radio and cable channels.",
   },
   {
     icon: "streaming",
     title: "Digital and streaming licensing",
-    body: "Licences for websites, apps, streaming services and online platforms that use music.",
-  },
-  {
-    icon: "collect",
-    title: "Royalty collection",
-    body: "Invoicing licence fees and gathering usage data so every public performance is accounted for.",
+    body: "Licences for websites, apps and online platforms that use music.",
   },
   {
     icon: "distribute",
-    title: "Royalty distribution",
-    body: "Matching performances to registered works and paying the creators and publishers who own them.",
+    title: "Royalty collection and payment",
+    body: "We collect licence fees and pay royalties to the performers.",
   },
   {
     icon: "register",
-    title: "Member and works registration",
-    body: "Registering lyricists, composers, performers and publishers, and the songs they have created.",
+    title: "Performer registration",
+    body: "Singers, musicians and DJs can register with us to receive royalties.",
   },
 ] as const;
 
 export const licensees = [
+  { icon: "dj", label: "DJ nights and clubs" },
+  { icon: "event", label: "Concerts, weddings and events" },
   { icon: "utensils", label: "Restaurants and cafés" },
   { icon: "hotel", label: "Hotels and resorts" },
   { icon: "shop", label: "Shops and shopping malls" },
   { icon: "gym", label: "Gyms and fitness centres" },
-  { icon: "office", label: "Offices and waiting areas" },
-  { icon: "event", label: "Concerts and events" },
   { icon: "tv", label: "TV and radio" },
   { icon: "digital", label: "Digital platforms" },
   { icon: "transport", label: "Buses, airlines and launches" },
@@ -78,44 +78,44 @@ export const licensees = [
 
 export const steps = {
   users: [
-    { title: "Tell us about your business", body: "Share the type of venue or service, its size and how you use music." },
-    { title: "Get your quote", body: "We calculate a fair licence fee from our published tariff." },
-    { title: "Pay and receive your licence", body: "Your licence covers our full repertoire for the agreed period." },
-    { title: "Report what you play", body: "Broadcasters and large users share playlists so creators are paid accurately." },
+    { title: "Contact us", body: "Tell us about your business or event and how you use music." },
+    { title: "Get your quote", body: "We tell you the licence fee." },
+    { title: "Pay and get your licence", body: "You can now use music legally." },
+    { title: "Share what you play", body: "Broadcasters, DJs and large users send us their playlists." },
   ],
-  creators: [
-    { title: "Become a member", body: "Apply as a lyricist, composer, performer or publisher." },
-    { title: "Register your works", body: "Add your songs and the share each rights-holder owns." },
-    { title: "We track and collect", body: "We license music users and gather data on where your songs are played." },
-    { title: "Get paid", body: "Receive royalty statements and payments for every licensed performance." },
+  performers: [
+    { title: "Become a member", body: "Apply as a singer, musician or DJ." },
+    { title: "Register your performances", body: "List the songs and recordings you have performed on." },
+    { title: "We collect", body: "We license music users and track where your performances are used." },
+    { title: "Get paid", body: "Receive your royalties with a clear statement." },
   ],
 };
 
 export const membership = {
-  who: ["Lyricists", "Composers", "Performers", "Music publishers", "Heirs of rights-holders"],
+  who: ["Singers", "Musicians", "DJs", "Bands", "Session players"],
   benefits: [
-    "Royalty income whenever your music is performed in public",
-    "Protection of your performing rights",
-    "Clear, regular royalty statements",
-    "Support from a dedicated member services team",
+    "Royalties when your performances are used in public",
+    "Protection of your rights as a performer",
+    "Regular, clear royalty statements",
+    "Help from our member support team",
   ],
-  documents: ["National ID (NID) or passport", "List of your works", "Bank account details", "Recent photograph"],
+  documents: ["National ID (NID) or passport", "List of your songs or recordings", "Bank account details", "Recent photograph"],
 };
 
 /** Sample entries for the repertoire search preview. TODO: connect to the real database. */
 export const sampleRepertoire = [
-  { title: "Bhorer Alo", writer: "Sample writer", performer: "Sample artist", id: "BMPS-000101" },
-  { title: "Nodir Kul", writer: "Sample writer", performer: "Sample artist", id: "BMPS-000214" },
-  { title: "Brishti Raat", writer: "Sample writer", performer: "Sample artist", id: "BMPS-000377" },
-  { title: "Shohor er Gaan", writer: "Sample writer", performer: "Sample artist", id: "BMPS-000452" },
-  { title: "Phire Esho", writer: "Sample writer", performer: "Sample artist", id: "BMPS-000589" },
-  { title: "Megher Desh", writer: "Sample writer", performer: "Sample artist", id: "BMPS-000613" },
+  { title: "Bhorer Alo", performer: "Sample artist", id: "BMPS-000101" },
+  { title: "Nodir Kul", performer: "Sample artist", id: "BMPS-000214" },
+  { title: "Brishti Raat", performer: "Sample artist", id: "BMPS-000377" },
+  { title: "Shohor er Gaan", performer: "Sample artist", id: "BMPS-000452" },
+  { title: "Phire Esho", performer: "Sample artist", id: "BMPS-000589" },
+  { title: "Megher Desh", performer: "Sample artist", id: "BMPS-000613" },
 ];
 
 /** TODO: replace with real contact details. */
 export const contact = {
   address: "Office address, Dhaka, Bangladesh",
-  phone: "+880 1XXX-XXXXXX",
+  phone: "+880 1719-200083",
   email: "info@bmps.pro",
   hours: "Sunday to Thursday, 10:00 AM to 6:00 PM",
 };

@@ -13,13 +13,13 @@ export function About() {
     <section id="about" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <SectionHeading
-          eyebrow="What a PRO does"
+          eyebrow="What we do"
           title={
             <>
-              Music is a craft. <span className="text-gradient">Its public use is a right.</span>
+              Performers make the music. <span className="text-gradient">They should be paid for it.</span>
             </>
           }
-          intro="Whenever a song is played on the radio, in a café or at a concert, it is being performed in public. The law says its creators deserve to be paid for that. A Performance Royalty Organization makes it simple for everyone."
+          intro="When music is played on the radio, in a shop, at an event or by a DJ, it is used in public. We give the licence for that use and pass the money to the performers."
         />
 
         <div className="relative mt-16">

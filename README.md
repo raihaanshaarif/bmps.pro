@@ -1,6 +1,6 @@
 # BMPS website
 
-One-page landing site for BMPS, a Performance Royalty Organization under BLCPS.
+One-page landing site for BMPS, Bangladesh Music Performers Society.
 Built with Next.js 16, Tailwind CSS 4, Three.js (React Three Fiber) and Framer Motion.
 
 ## Run it on your computer

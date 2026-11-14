@@ -1,6 +1,6 @@
 import {
   Speaker, RadioTower, MonitorPlay, Receipt, HandCoins, UserPlus,
-  UtensilsCrossed, Hotel, ShoppingBag, Dumbbell, Building2, PartyPopper, Tv, Smartphone, Bus,
+  UtensilsCrossed, Disc3, Hotel, ShoppingBag, Dumbbell, Building2, PartyPopper, Tv, Smartphone, Bus,
   type LucideIcon,
 } from "lucide-react";
 
@@ -11,7 +11,8 @@ export const iconMap: Record<string, LucideIcon> = {
   collect: Receipt,
   distribute: HandCoins,
   register: UserPlus,
-  utensils: UtensilsCrossed,
+  dj: Disc3,
+  utensils: UtensilsCrossed, Disc3,
   hotel: Hotel,
   shop: ShoppingBag,
   gym: Dumbbell,

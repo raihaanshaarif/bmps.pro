@@ -11,12 +11,12 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bmps.pro"),
-  title: "BMPS | Performance Royalty Organization",
+  title: "BMPS | Bangladesh Music Performers Society",
   description:
-    "BMPS licenses the public performance of music and pays royalties to the songwriters, composers, performers and publishers behind it. A Performance Royalty Organization under BLCPS.",
+    "Bangladesh Music Performers Society licenses the public use of music and pays royalties to the singers, musicians and DJs who perform it.",
   openGraph: {
-    title: "BMPS | Performance Royalty Organization",
-    description: "Every time music plays in public, its creators get paid.",
+    title: "BMPS | Bangladesh Music Performers Society",
+    description: "Every time music plays in public, its performers get paid.",
     images: ["/logo.png"],
   },
 };

@@ -12,7 +12,7 @@ export function Repertoire() {
     const term = q.trim().toLowerCase();
     if (!term) return sampleRepertoire.slice(0, 3);
     return sampleRepertoire.filter((r) =>
-      [r.title, r.writer, r.performer, r.id].some((f) => f.toLowerCase().includes(term)),
+      [r.title, r.performer, r.id].some((f) => f.toLowerCase().includes(term)),
     );
   }, [q]);
 
@@ -27,7 +27,7 @@ export function Repertoire() {
               Is that song <span className="text-gradient">in our repertoire?</span>
             </>
           }
-          intro="Search the works we license by title, writer or artist."
+          intro="Search the songs and performers we represent."
         />
 
         <Reveal delay={0.1} className="mt-10">
@@ -37,7 +37,7 @@ export function Repertoire() {
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
-              placeholder="Search by song title, writer or artist"
+              placeholder="Search by song or performer"
               className="w-full rounded-full border border-white/10 bg-deep/70 py-5 pl-16 pr-6 text-base text-white placeholder:text-mist/70 outline-none transition focus:border-gold/60 focus:shadow-[0_0_0_6px_rgba(227,169,87,0.12)] sm:text-lg"
             />
           </label>
@@ -58,7 +58,7 @@ export function Repertoire() {
                 <div className="min-w-0 flex-1">
                   <p className="truncate font-semibold text-white">{r.title}</p>
                   <p className="truncate text-sm text-mist">
-                    {r.writer} · {r.performer}
+                    {r.performer}
                   </p>
                 </div>
                 <span className="hidden rounded-full bg-gold/10 px-3 py-1 font-mono text-xs text-gold-soft sm:block">{r.id}</span>
