@@ -121,7 +121,7 @@ export function Contact() {
           </nav>
         </div>
         <p className="mx-auto mt-8 max-w-7xl px-5 text-xs text-mist/60 lg:px-8">
-          © 2026 BMPS. All rights reserved.
+          © 2026 BMPS. All rights reserved. · Website under construction.
         </p>
       </footer>
     </>

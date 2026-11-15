@@ -11,7 +11,7 @@ const words = ["Every", "time", "music", "plays", "in", "public,"];
 export function Hero() {
   const reduce = useReducedMotion();
   return (
-    <section id="top" className="grain relative flex min-h-[100svh] items-center overflow-hidden pt-24">
+    <section id="top" className="grain relative flex min-h-[100svh] items-center overflow-hidden pt-36">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_70%_40%,rgba(227,169,87,0.16),transparent_55%),radial-gradient(ellipse_at_20%_80%,rgba(80,92,170,0.22),transparent_50%)]" />
       <div className="absolute inset-0 opacity-60 lg:opacity-100">
         <HeroScene />

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { nav } from "@/content/site";
+import { contact, nav } from "@/content/site";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,6 +25,13 @@ export function Header() {
         scrolled ? "border-b border-white/5 bg-ink/80 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
+      <div className="bg-gold px-4 py-2 text-center text-xs font-medium text-ink sm:text-sm">
+        Our website is under construction. Some information is coming soon. Email{" "}
+        <a href={`mailto:${contact.email}`} className="font-semibold underline underline-offset-2">
+          {contact.email}
+        </a>{" "}
+        for help.
+      </div>
       <div className="mx-auto flex h-[76px] max-w-7xl items-center justify-between px-5 lg:px-8">
         <a href="#top" className="relative block h-10 w-[140px]" aria-label="BMPS home">
           <Image src="/logo-light.png" alt="BMPS" fill priority sizes="140px" className="object-contain object-left" />
